@@ -1,0 +1,18 @@
+<!--pages/XsgData/XsgData.wxml-->
+<view class="navigator" wx:for="{{MovieName}}" wx:for-item="i" wx:for-index="j">
+  <view class="item">
+      <text class="code">{{data.code[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="name">{{data.name[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="count">解禁数：{{data.count[j]}}万股</text>
+  </view>
+  <view class="item">
+      <text class="ratio">占总盘比{{data.ratio[j]}}%</text>
+  </view>
+    <view class="item">
+      <text class="date">解禁时间{{data.date[j]}}</text>
+  </view>
+</view>

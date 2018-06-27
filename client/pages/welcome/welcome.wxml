@@ -1,0 +1,15 @@
+<!--pages/welcome/welcome.wxml-->
+<!-- <swiper indicator-dots="{{true}}">
+<block wx:for="{{imgs}}" wx:for-index="index">
+  <swiper-item class="swiper-items">
+    <image class="swiper-image" src='{{item}}'></image>
+  </swiper-item>
+      <button class="button-img" bindtap="start" wx:if="{{index == imgs.length-1}}">开启理财之旅</button>
+  </block>
+</swiper> -->
+
+<view class='container'>
+  <image class='welcome-icon' src="../../images/mg.jpg"></image>
+  <text class="motto">Hello,{{}}</text>
+
+</view>

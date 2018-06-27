@@ -1,0 +1,22 @@
+<!--pages/news/news.wxml-->
+  <scroll-view class="page-body" scroll-y="true">
+  <swiper catchtap="onSwiperTap" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" data-post-id="{{post-id}}"/>
+    </swiper-item>
+  </block>
+</swiper>
+<navigator class="navigator"  wx:for="{{title}}" wx:for-item="i" wx:for-index="j" url="../new/singerNew?id={{j}}">
+  <view class="item">
+      <text class="Irank">{{data.title[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="MovieName">{{data.classify[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="boxoffice">{{data.time[j]}}</text>
+  </view>
+</navigator>
+  </scroll-view>

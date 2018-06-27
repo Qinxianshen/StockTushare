@@ -1,0 +1,19 @@
+/* pages/new/singerNew.wxss */
+.title_view{
+  font-size: 20px;
+  margin: 10rpx;
+  letter-spacing: 2px;
+  color:#000000;
+}
+.from_view{
+  font-size: 10px;
+  margin: 5rpx;
+  letter-spacing: 1px;
+  color:#aaa;
+}
+.body_view{
+  font-size: 18px;
+  margin: 10rpx;
+  letter-spacing: 2px;
+  color:#000000;
+}

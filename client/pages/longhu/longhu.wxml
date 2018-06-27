@@ -1,0 +1,15 @@
+<!--pages/longhu/longhu.wxml-->
+<view class="navigator" wx:for="{{name}}" wx:for-item="i" wx:for-index="j">
+  <view class="item">
+      <text class="code">代码号：{{data.code[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="name">名称：{{data.name[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="bamount">累积购买额(万){{data.bamount[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="samount">累积卖出额(万){{data.samount[j]}}</text>
+  </view>
+</view>

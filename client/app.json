@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/main/main",
+    "pages/news/news",
+    "pages/new/singerNew",
+    "pages/welcome/welcome",
+    "pages/post/post",
+    "pages/film/film",
+    "pages/longhu/longhu",
+    "pages/newStock/newStock",
+    "pages/BigData/BigData",
+    "pages/XsgData/XsgData",
+    "pages/StopStock/StopStock",
+    "pages/Basic/Basic",
+    "pages/post/Basic",
+    "pages/blockchain/blockchain",
+    "pages/industry/industyclass"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#87CEFA",
+    "navigationBarTitleText": "StockToShare",
+    "navigationBarTextStyle":"white"
+  },
+
+    "tabBar": {
+      "color": "#aaa",
+      "selectedColor": "#87CEFA",
+      "borderStyle": "black",
+      "list": [
+        {
+          "selectedIconPath": "images/ShouYe-icon-selected.png",
+          "iconPath": "images/ShouYe-icon-unselected.png",
+          "pagePath": "pages/main/main",
+          "text": "首页"
+        },
+        {
+          "selectedIconPath": "images/seach-pressed-64.png",
+          "iconPath": "images/seach-icon-64.png",
+          "pagePath": "pages/post/post",
+          "text": "搜索"
+        },
+        {
+          "selectedIconPath": "images/news-icon-selected.png",
+          "iconPath": "images/news-icon-unselected.png",
+          "pagePath": "pages/news/news",
+          "text": "资讯"
+        }
+      ]
+    }
+}

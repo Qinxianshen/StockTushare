@@ -1,0 +1,9 @@
+/* pages/Basic/Basic.wxss */
+.navigator{
+    display: flex;
+    padding: 20rpx 40rpx;
+    border-bottom: 2rpx solid
+}
+.item{
+  padding: 8rpx;
+}

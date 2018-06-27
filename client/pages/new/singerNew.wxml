@@ -1,0 +1,15 @@
+<!--pages/new/singerNew.wxml-->
+<view class="btn-area" style="flex-direction:row;">
+  <view class="title_view">
+    <text>{{title}}</text>
+  </view>
+  <view class="from_view" style="flex-direction:row;">
+    <text>来源：{{Content_from}}  </text>
+    <text>{{Content_date}}  </text>
+    <text>阅读次数：{{Content_num}}</text>
+  </view>
+  <view class="body_view">
+    <image mode='aspectFill' src="{{img_src}}"></image>
+    <text>{{content}}</text>
+  </view>
+</view>

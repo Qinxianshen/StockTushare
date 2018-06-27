@@ -1,0 +1,12 @@
+<!--pages/BigData/BigData.wxml-->
+<view class="navigator" wx:for="{{MovieName}}" wx:for-item="i" wx:for-index="j">
+  <view class="item">
+      <text class="date">{{data.date[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="deposite_type">类型：{{data.deposit_type[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="rate">利率：{{data.rate[j]}}%</text>
+  </view>
+</view>

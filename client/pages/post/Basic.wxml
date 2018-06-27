@@ -1,0 +1,22 @@
+<!--pages/post/Basic.wxml-->
+<text class="code">code:{{code}}</text>
+<view class="navigator" wx:for="{{open}}" wx:for-item="i" wx:for-index="j">
+    <view class="item">
+      <text class="date">时间：{{j}}</text>
+  </view>
+  <view class="item">
+      <text class="open">开盘价：{{data.open[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="close">收盘价：{{data.close[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="high">最高价：{{data.high[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="low">最低价：{{data.low[j]}}</text>
+  </view>
+    <view class="item">
+      <text class="turnover">换手率：{{data.turnover[j]}}%</text>
+  </view>
+</view>

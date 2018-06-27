@@ -1,0 +1,15 @@
+<!--pages/film/film.wxml-->
+<view class="navigator" wx:for="{{MovieName}}" wx:for-item="i" wx:for-index="j">
+  <view class="item">
+      <text class="Irank">{{data.Irank[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="MovieName">{{data.MovieName[j]}}</text>
+  </view>
+  <view class="item">
+      <text class="boxoffice">{{data.boxoffice[j]}}万元</text>
+  </view>
+  <view class="item">
+      <text class="days">已上映{{data.days[j]}}天</text>
+  </view>
+</view>

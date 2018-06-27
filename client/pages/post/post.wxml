@@ -1,0 +1,8 @@
+<!--pages/post/post.wxml-->
+<view class="section">
+  <input bindinput="bindKeyInput" placeholder="凭股票代码搜索"  typle="number" focus="{{focus}}" />
+  <view class="btn-area">
+    <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" hover-class="other-button-hover" bindtap="bindButtonTap">搜索</button>
+  </view>
+</view>
